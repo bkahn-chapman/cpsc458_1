@@ -1,18 +1,22 @@
 .headshot {
     width: 20%;
     height: auto;
+    margin: auto;
     padding-right: 10px;
+    flex-wrap: wrap;
 }
 
 .intro {
     display: flex;
     flex-direction: row;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 }
 
 body {
     display: flex;
     flex-direction: column;
+    background-color: lightgreen;
+    flex-wrap: wrap;
 }
 
 p {
@@ -24,6 +28,7 @@ p {
     height: auto;
     display:flex;
     justify-content:flex-end;
+    padding-right: 5px;
 }
 
 footer {
@@ -32,9 +37,25 @@ footer {
     justify-content:space-between;
     flex-wrap:wrap;
     align-items:center;
+    background-color: white;
 }
 
 .introinfo {
     display: flex;
     flex-direction: column;
+}
+
+.articles {
+    font-size:0.8em;
+    padding-bottom: 10px;
+}
+
+.indent {
+    padding-left: 25px;
+    padding-bottom: 10px;
+}
+
+.resumelink {
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
