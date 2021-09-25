@@ -1,0 +1,26 @@
+img {
+    width: 20%;
+    height: auto;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+p {
+    max-width: 100%;
+}
+
+.linkedin {
+    width: 15%;
+    display:flex;
+    justify-content:flex-end;
+}
+
+footer {
+    display:flex;
+    align-items:flex-end;
+    justify-content:space-between;
+    flex-wrap:wrap;
+}
