@@ -65,7 +65,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap:wrap;
-    max-height: 200px;
+    max-height: 250px;
     padding-right: 10px;
     align-items: center;
 }
