@@ -1,6 +1,13 @@
 .headshot {
     width: 20%;
     height: auto;
+    padding-right: 10px;
+}
+
+.intro {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
 }
 
 body {
@@ -24,4 +31,10 @@ footer {
     align-items:flex-end;
     justify-content:space-between;
     flex-wrap:wrap;
+    align-items:center;
+}
+
+.introinfo {
+    display: flex;
+    flex-direction: column;
 }
